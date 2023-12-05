@@ -9,4 +9,4 @@ the thought occurred to me that I could ask ChatGpt to shorten the path for me a
 it's a bit stressful and spuky to communicate with computers 🦇˚｡･ﾟ✧:･.:🦇  but here it happens....
 
 #
-Thank you ![image](https://github.com/meir-gazit/Capture-Audio-Ex/assets/76516881/914988ac-92e1-412f-8d50-1e859f1df48d) [Arbalest]([https://website-name.com](https://github.com/arblast/Chrome-Audio-Capturer)) that from his work I got mine
+Thank you Arbalest ![image](https://github.com/meir-gazit/Capture-Audio-Ex/assets/76516881/914988ac-92e1-412f-8d50-1e859f1df48d) ![]((https://github.com/arblast/Chrome-Audio-Capturer)) that from your work I got mine.
