@@ -1,14 +1,29 @@
-#
-# <div align='center'>🦇˚｡･ﾟ✧:･.:🦇 Capture-Audio-Ex 🦇˚｡･ﾟ✧:･.:🦇</div>
-#
-The wonderful journey to capture audio from the browser
-#
-The truth is that I didn't do much, <br />
-it happened when I was looking to save someone's conversation from a video I saw on some news site and I found out that I had no way, <br />
-I looked in the Google store for some plugin that would allow me to do this, <br />
-and when I found one like that I saw that it had a github and from there I could download it and learn what he did and how, <br />
-the thought occurred to me that I could ask ChatGpt to shorten the path for me and from there I would continue alone, and here is the result, <br />
-it's a bit stressful and spuky to communicate with computers 🦇˚｡･ﾟ✧:･.:🦇  but here it happens....
-#
-Thank you Arbalest ![image](https://github.com/meir-gazit/Capture-Audio-Ex/assets/76516881/914988ac-92e1-412f-8d50-1e859f1df48d) ![]((https://github.com/arblast/Chrome-Audio-Capturer)) that from your work I got mine.
-#
+# Audio Capture Extension
+
+This Chrome extension allows users to capture audio from the browser using the Web Audio API. It converts the captured audio into an MP3 file and enables the user to download the resulting audio.
+
+## How to Use
+
+1. Click on the extension icon in the toolbar.
+2. Click the "Start Audio Capture" button to begin capturing audio.
+3. Click the "Stop Audio Capture" button to stop capturing audio.
+4. A downloadable MP3 file named "captured_audio.mp3" will be generated.
+
+## Logic and Components
+
+- **`manifest.json`**: Configuration file for the extension.
+
+- **`popup.html`**: Popup HTML with buttons to start and stop audio capture.
+
+- **`popup.js`**: JavaScript for the popup, sends messages to `background.js` to control audio capture.
+
+- **`background.js`**: Background script that handles audio capture, converts audio to MP3, and provides a download link.
+
+- **`content.js`**: Content script that interacts with the webpage, captures audio, and sends data to `background.js`.
+
+- **`lame.min.js`**: External library for MP3 encoding.
+
+## Note
+
+Ensure that you have granted permission to access the microphone when prompted.
+
