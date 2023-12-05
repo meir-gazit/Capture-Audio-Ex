@@ -1,4 +1,4 @@
-# Audio Capture Extension
+# <div alighn='center'>Audio Capture Extension - Capture-Audio-Ex</div>
 
 This Chrome extension allows users to capture audio from the browser using the Web Audio API. It converts the captured audio into an MP3 file and enables the user to download the resulting audio.
 
